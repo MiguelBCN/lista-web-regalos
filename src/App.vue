@@ -2,17 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <button class="btn-primary">hola</button>
+    <CardEtiquta></CardEtiquta>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import CardEtiquta from './components/Card-Etiqueta.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    CardEtiquta
   }
 }
 </script>
